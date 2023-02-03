@@ -37,7 +37,7 @@ pencil_blurd_img = cv2.divide(grayscaled_img, inverted_blurd_img, scale = 256.0)
 pencil_blurd_img = cv2.putText(pencil_blurd_img, "Engr. Zia Ur Rehman", (width-200, hight-50), 1, 1, (0, 0, 0), 2)
 
 # save image
-new_img = zayan_img[0] + "new.jpg"
+new_img = zayan_img[0] + "new2.jpg"
 cv2.imwrite(new_img, pencil_blurd_img)
 
 # show image
